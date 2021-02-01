@@ -1,0 +1,41 @@
+#signup
+{height:40px;
+  width:200px;
+border-radius:10px;
+background: transparent;
+border: 2px solid #c2d6d6;
+padding: 10px;
+}
+#button1,#button2{
+height:20px;
+width:100px;
+background-color: #99ccff;
+border-radius:100px;
+}
+#button1
+{margin-left: 530px;
+  float:left;
+}
+#button2
+{margin-right: 530px;
+  margin-top: -19px;
+  float:right;
+}
+body{
+background-color: white;
+color:#0086b3;
+}
+#title
+{
+  font-size: 10px;
+  margin: 0px;
+}
+#signup1
+{
+  width:200px;
+border-radius:10px;
+background: transparent;
+border: 2px solid #c2d6d6;
+padding: 10px;
+
+}

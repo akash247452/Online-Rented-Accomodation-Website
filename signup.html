@@ -1,0 +1,73 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="universal.css">
+<link rel="stylesheet" type="text/css" href="signup.css">
+<link rel="icon" href="icon.jpg" type="image/x-icon">
+<TITLE>Akashconsaltancy</TITLE>
+
+</head>
+<body>
+
+  <div class="heading">
+<h1>Akash Consaltancy</h1>
+<h2>Rented acomodation Consaltant</h2>
+</div>
+
+<div class="menu">
+  <a id="home" href="index.html">Home</a>
+  <a id="home" href="explore.html">Explore</a>
+  <a id="home" href="contact.html">Contact Us</a>
+  <a id="home" href="about.html">About</a>
+  <form class="form" >
+  <input name="searchbar" placeholder="Search...">
+  <button type="submit">Search
+  </form>
+</div>
+<center>
+<h1>Enter your details below :</h1>
+<br>
+<form class="siginup" action="Connected.php" method="Post">
+  First name:*<br>
+  <input id="signup" type="text" name="firstname" placeholder="  Fristname" required>
+  <br><br>
+  Last name:<br>
+  <input id="signup" type="text" name="lastname" placeholder="  lasttname">
+<br><br>
+E-mail Id:*
+<br>
+<input id="signup" type="email" name="e-mail" placeholder=" ...@xyz.com"  required>
+<br><br>
+D.O.B:
+
+<br>
+<input id="signup" type="text" name="date" placeholder="               DD/MM/YYYY">
+<br><br>
+Gender:*
+<input type="radio" name="Gender" value="male" required>male
+<input type="radio" name="Gender" value="female" required>female<br>
+
+<br>
+Create Username:*
+<p id="title"> (comination of number,uppercase & lowercase  & min 6 char) </p>
+<input id="signup" type="text" name="Username" required pattern="(?=.*\d)(?=.*[a-z]).{6,}" minlength="6" placeholder=" Username"  required>
+<br><br>
+Create Password:*
+<p id="title"> (comination of number,uppercase & lowercase  & min 8 char) </p>
+<input id="signup" type="Password" name="Password" placeholder="   Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" required>
+<br><br>
+<input  type="checkbox" required>Agree with terms&conditions.</br><br>
+<input id="button1" type="reset" name="reset"><br></input>
+
+<input id="button2" type="submit" value="submit"></input>
+
+</center>
+ <p class="bottom">  2003 - 2019 Akash Resources Ltd.All rights reserved.All content are copyright act 2001.
+Terms & Conditions | Privacy Policy | GDPR Statement.
+ we will assisst you in geting the favourable rented accomodation.
+Web design & development by Akash.
+</p>
+
+
+
+</body>
+</html>

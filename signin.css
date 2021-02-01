@@ -1,0 +1,55 @@
+
+body{
+background-color: white;
+
+
+}
+.login-box{
+  padding-top: 15%;
+  padding-left: 35%;
+  width: 280px;
+  position: absolute;
+
+
+}
+.login-box h1{
+
+  font-size: 50px;
+margin-top: -100px;
+  font-family: serif;
+border: none;
+border-radius: 10px;
+margin-left: 100px;
+
+color: #0099cc;
+
+}
+.textbox input{
+  height: 60px;
+  width: 400px;
+border:3px solid #0099cc;
+margin-bottom: 10px;
+
+  overflow: hidden;
+  padding:10px ;
+  font-size: 20px;
+font color: black;
+border-radius: 10px;
+background: transparent;
+}
+.
+
+
+.button input {
+
+margin-left: 30px;
+margin-top: 30px;
+height: 30px;
+
+  border:10px outset #c2d6d6;
+  border-radius: 100px;
+  background-color: #c2d6d6;
+
+}
+.bottom
+{margin-top: 530px;}
